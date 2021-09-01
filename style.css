@@ -1,0 +1,57 @@
+body {
+    background-color: purple;
+}
+
+h1 {
+    text-align: center;
+    background-color: purple;
+    
+}
+
+nav {
+    text-align: center;
+    background-color: hotpink;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    }
+
+a {
+    text-decoration: none;
+    font-size: large;
+    display: block;
+    padding: 0.5rem;
+}    
+
+
+  
+  a:hover {
+    color: black;
+  }
+  
+  label {
+      font-size: larger;
+      display: block;
+  }
+
+  button {
+    background-color: hotpink;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  p {
+      font-size: larger;
+  }
+
+  #output {
+      font-size: x-large;
+  }
+
+  hr {
+      background-color: purple;
+  }
