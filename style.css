@@ -1,5 +1,5 @@
 body {
-    background-color: purple;
+    background-color:purple;
 }
 
 h1 {
@@ -20,10 +20,20 @@ a {
     font-size: large;
     display: block;
     padding: 0.5rem;
+    color: purple;
 }    
 
+#links {
+    text-decoration: none;
+    font-size: large;
+    display: block;
+    padding: 0.5rem;
+    color: hotpink;
+}
 
-  
+#links:hover {
+    color: black;
+}
   a:hover {
     color: black;
   }
@@ -51,7 +61,18 @@ a {
   #output {
       font-size: x-large;
   }
-
-  hr {
-      background-color: purple;
+ 
+  .outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
   }
+
+  .float {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
